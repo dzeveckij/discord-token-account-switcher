@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Token Switcher",
+  "version": "1.0.0",
+  "description": "Quickly switch between multiple Discord accounts using authorization tokens.",
+  "permissions": [
+    "storage",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://*.discord.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
